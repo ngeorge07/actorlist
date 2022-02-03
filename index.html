@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <template id="card-template">
+      <button class="actor-card">
+        <h2>Sebastian Stan</h2>
+        <p>Captain america</p>
+      </button>
+    </template>
+
+    <template id="pop">
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          <ul class="modal-body">
+            <li id="movie"></li>
+          </ul>
+        </div>
+      </div>
+    </template>
+
+    <header>
+      <nav>
+        <ul>
+          <li><button id="pulp">Pulp Fiction</button></li>
+          <li><button id="fight">Fight Club</button></li>
+          <li><button id="good">Goodfellas</button></li>
+          <li><button id="inception">Inception</button></li>
+          <li><button id="all">All</button></li>
+          <li><button id="last-az">Last name A to Z</button></li>
+          <li><button id="first-az">First name A to Z</button></li>
+          <li><button id="last-za">Last name Z to A</button></li>
+          <li><button id="first-za">First name Z to A</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="actor-grid"></section>
+    </main>
+
+    <footer></footer>
+
+    <script src="scripts/home.js"></script>
+  </body>
+</html>
