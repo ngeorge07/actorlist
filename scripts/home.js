@@ -1,8 +1,8 @@
-fetch("../assets/actors.json")
+fetch("./assets/actors.json")
   .then((response) => response.json())
   .then(showActors);
 
-fetch("../assets/actors.json")
+fetch("./assets/actors.json")
   .then((response) => response.json())
   .then(filters);
 
